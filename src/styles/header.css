@@ -1,0 +1,54 @@
+.up-side {
+  z-index: 1000;
+}
+
+header {
+  padding-left: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.hdr-left-section {
+  flex: 1;
+}
+
+.hdr-right-section {
+  margin-right: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.entry-panel {
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+}
+
+input {
+  width: 100%;
+  background-color: #c2c2d6;
+  padding: 14px 20px;
+  /* margin: 8px 0; */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+select{
+  width: 100%;
+  background-color: #c2c2d6;
+  padding: 14px 20px;
+  /* margin-top: 20px; */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-addTask {
+  width: 100%;
+  color: whitesmoke;
+  background-color: #0F172A;
+}

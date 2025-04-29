@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+body{
+  margin: 0px;
+  font-family: 'Inter';
+  background-color: #282D35;
+  margin-bottom: 50px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.up-side {
+  background-color: whitesmoke;
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 30px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.50);
+}
+
+/* Responsive Design */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .entry-container {
+    column-count: 3 !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .entry-panel {
+    gap: 20px !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .entry-container {
+    column-count: 2 !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .entry-panel {
+    gap: 15px !important;
+  }
+}
+
+@media (min-width: 441px) and (max-width: 600px) {
+  .entry-container {
+    column-count: 1 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 170px !important;
+  }
+
+  .entry-panel {
+    gap: 10px !important;
+  }
+
+  header h1, h2 {
+    font-size: 20;
+  }
+}
+
+@media (max-width: 440px) {
+  .entry-container {
+    column-count: 1 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 170px !important;
+  }
+
+  .entry-panel {
+    gap: 10px !important;
+  }
+
+  header h1, h2 {
+    font-size: 16;
+  }
+}

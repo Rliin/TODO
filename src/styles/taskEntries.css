@@ -1,0 +1,118 @@
+:root {
+  --card_border_radius: 16px;
+}
+
+p, h3 {
+  margin: 0;
+}
+
+.taskCard button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  /* transition: background-color 0.2s; */
+}
+
+.entry-container {
+  column-count: 3;
+  column-gap: 20px;
+  width: 100%;
+  padding-top: 210px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.column-title {
+  color: whitesmoke;
+}
+
+article {
+  break-inside: avoid;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  border-radius: var(--card_border_radius);
+  /* transition: box-shadow 0.2s ease; */
+  /* transition: transform .2s; */
+}
+
+article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.index {
+  width: 25px;
+  height: 25px;
+  background-color: #0f172a;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.card-title {
+  margin: 0 0 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-content {
+  flex-grow: 1;
+  padding: 5px 0 5px 0;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.card-content p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.card-footer {
+  padding: 5px 0 0 0;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deadline {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.btn-edit {
+  background-color: #0F172A;
+  margin-right: 3px;
+}
+
+.btn-edit:hover {
+  background-color: #3d3d3d;
+}
+
+.btn-delete {
+  background-color: #990000;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #cc0000;
+}
